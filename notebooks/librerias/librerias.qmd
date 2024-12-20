@@ -1,0 +1,146 @@
+---
+title: Librerias
+---
+## **Librerías Utilizadas**
+
+### **1. NumPy**  
+**Propósito**: Manipulación eficiente de matrices y operaciones matemáticas fundamentales.  
+**Funciones clave**:  
+- `np.arange()`  
+   - Genera arreglos de valores equiespaciados.  
+   - *Ejemplo*: Generar instantes de tiempo para señales: `n = np.arange(0, N)`  
+- `np.zeros()`  
+   - Crea arreglos inicializados con ceros.  
+   - *Ejemplo*: `y = np.zeros(N)` para inicializar una señal.  
+- `np.fft.fft()`  
+   - Calcula la Transformada de Fourier Discreta (TFTD) de una señal.  
+   - *Ejemplo*: `fft_x = np.fft.fft(x)`  
+- `np.fft.fftfreq()`  
+   - Calcula las frecuencias correspondientes a la FFT.  
+   - *Ejemplo*: `frequencies = np.fft.fftfreq(N, d=1/fs)`  
+- `np.fft.fftshift()`  
+   - Desplaza las frecuencias centrando en \( \omega = 0 \).  
+   - *Ejemplo*: `fft_shifted = np.fft.fftshift(fft_x)`  
+- `np.convolve()`  
+   - Realiza la convolución entre dos señales.  
+   - *Ejemplo*: `y = np.convolve(x, h, mode='full')`  
+
+---
+
+### **2. Matplotlib**  
+**Propósito**: Visualización de señales en el dominio del tiempo y frecuencia.  
+**Funciones clave**:  
+- `plt.plot()`  
+   - Grafica una señal continua.  
+   - *Ejemplo*: `plt.plot(t, x)`  
+- `plt.stem()`  
+   - Grafica señales discretas (en puntos).  
+   - *Ejemplo*: `plt.stem(n, x)`  
+- `plt.title()`, `plt.xlabel()`, `plt.ylabel()`  
+   - Personalizan títulos y etiquetas de gráficos.  
+   - *Ejemplo*: `plt.title("Señal x[n]")`  
+- `plt.grid()`  
+   - Activa una cuadrícula en el gráfico.  
+   - *Ejemplo*: `plt.grid(True)`  
+- `plt.tight_layout()`  
+   - Ajusta automáticamente la distribución de los subgráficos.  
+- `plt.show()`  
+   - Muestra los gráficos.
+
+---
+
+### **3. SciPy**  
+**Propósito**: Procesamiento avanzado de señales, análisis de sistemas LTI.  
+**Submódulo clave**: `scipy.signal`  
+**Funciones clave**:  
+- `signal.dlti()`  
+   - Representa sistemas LTI (Lineales e Invariantes en el Tiempo) en tiempo discreto.  
+   - *Ejemplo*: `system = signal.dlti(b, a)`  
+- `signal.dimpulse()`  
+   - Calcula la respuesta impulsional de un sistema LTI discreto.  
+   - *Ejemplo*: `t, h = signal.dimpulse(system, n=20)`  
+- `signal.lfilter()`  
+   - Aplica un filtro FIR o IIR a una señal.  
+   - *Ejemplo*: `y = signal.lfilter(b, a, x)`  
+- `signal.firwin()`  
+   - Diseña filtros FIR con características específicas.  
+   - *Ejemplo*: Crear un filtro pasa bajos: `b = signal.firwin(N, cutoff)`  
+- `signal.freqz()`  
+   - Calcula y grafica la respuesta en frecuencia de un sistema.  
+   - *Ejemplo*: `w, h = signal.freqz(b, a, worN=512)`  
+
+---
+
+### **4. Soundfile**  
+**Propósito**: Lectura y escritura de archivos de audio.  
+**Funciones clave**:  
+- `sf.read()`  
+   - Carga archivos de audio (wav, flac, etc.).  
+   - *Ejemplo*: `fs, x = sf.read('audio.wav')`  
+- `sf.write()`  
+   - Guarda una señal en un archivo de audio.  
+   - *Ejemplo*: `sf.write('output.wav', y, fs)`  
+
+---
+
+### **5. IPython y Jupyter**  
+**Propósito**: Entorno interactivo para la ejecución de código y visualización.  
+**Herramientas clave**:  
+- `IPython.display.Audio()`  
+   - Reproduce una señal de audio en una celda de Jupyter.  
+   - *Ejemplo*: `Audio(y, rate=fs)`  
+- Markdown y LaTeX:  
+   - Documentación de reportes, uso de fórmulas matemáticas.  
+   - *Ejemplo*: `$$ y[n] = x[n] * h[n] $$`  
+
+---
+
+### **6. Oct2Py**  
+**Propósito**: Ejecutar scripts de Octave/MATLAB desde Python.  
+**Funciones clave**:  
+- `Oct2Py()`  
+   - Inicializa una sesión de Octave.  
+   - *Ejemplo*: `oc = Oct2Py()`  
+- `oc.run()`  
+   - Ejecuta scripts de Octave.  
+   - *Ejemplo*: `oc.run('hcanald.m')`  
+- `oc.addpath()`  
+   - Agrega rutas a carpetas que contienen archivos Octave/MATLAB.  
+
+---
+
+## **Procesamiento de Señales Utilizado**
+
+### **1. Respuesta Impulsional \( h[n] \)**  
+La respuesta impulsional de un sistema fue calculada usando:
+   - Análisis manual de las ecuaciones en diferencias.  
+   - Implementación con **`scipy.signal.dimpulse`**.  
+   - Graficada usando **`matplotlib.stem()`**.  
+
+### **2. Transformada de Fourier en Tiempo Discreto (TFTD)**  
+   - Calculada usando **`np.fft.fft`**.  
+   - Frecuencias generadas con **`np.fft.fftfreq`** y desplazadas con **`np.fft.fftshift`**.  
+   - Magnitud y fase de la señal graficadas para análisis.  
+
+---
+
+## **Filtros Implementados**
+
+### **1. Sistemas LTI FIR**  
+Filtros implementados en base a las ecuaciones en diferencias dadas.  
+   - Usamos **convolución** (`np.convolve`) para aplicar la respuesta impulsional.  
+   - Ejemplo: Canal con doble eco.  
+
+### **2. Filtros Correctores**  
+   - **Filtro FIR de 1 rama de retardo**: Atenuación de un solo eco.  
+   - **Filtro FIR de 2 ramas de retardo**: Corrección de dos ecos simultáneamente.  
+   - Ambos implementados utilizando **`np.convolve()`** y analizados en el tiempo y frecuencia.
+
+---
+
+## **Procesamiento de Audio**  
+   - Cargado y guardado con **`soundfile`**.  
+   - Visualización en tiempo usando **`matplotlib`**.  
+   - Análisis en frecuencia usando la **TFTD**.  
+   - Reproducción de audio en **Jupyter** con **`IPython.display.Audio`**.
+

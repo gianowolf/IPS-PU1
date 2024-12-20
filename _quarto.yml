@@ -3,6 +3,21 @@ project:
 
 website:
   title: "Práctica de DSP"
+  sidebar:
+    - title: "Ejercicios"
+      style: "docked"
+      contents:
+        - section: "Ejercicio 1"
+          contents:
+            - notebooks/ejercicio1/01_x_input.qmd
+            - notebooks/ejercicio1/02_h_system.qmd
+            - notebooks/ejercicio1/03_h_systems_num.qmd
+            - notebooks/ejercicio1/04_y_output.qmd
+            - notebooks/ejercicio1/data/
+        - section: "Ejercicio 2"
+          contents:
+            - notebooks/ejercicio2/01_h_system.qmd
+            - notebooks/ejercicio2/data/
   navbar:
     left:
       - href: index.qmd

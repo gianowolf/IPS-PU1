@@ -1,21 +1,66 @@
 ---
 title: "Práctica con Utilitario - IPS 2024"
-format: html
+format:
+  html:
+    toc: true
+    number-sections: true
 ---
 
-## Autor
+# Práctica con Utilitario - IPS 2024
 
-Gian Franco Lasala - 01425/3
+En esta página encontrarás una breve explicación sobre **Quarto** y **Binder**, además de los enlaces a los ejercicios resueltos.
+
+---
+
+## ¿Qué es Quarto?
+
+[Quarto](https://quarto.org) es una herramienta de código abierto que permite crear documentos, sitios web, libros y presentaciones interactivas a partir de archivos **Markdown** (`.qmd`) y **Jupyter Notebooks** (`.ipynb`).
+
+Quarto se utiliza para generar contenido dinámico y reproducible, especialmente útil en ciencia de datos y enseñanza.
+
+---
+
+## ¿Qué es Binder?
+
+[Binder](https://mybinder.org) es un servicio gratuito que permite ejecutar notebooks interactivos directamente en la nube. Simplemente, seleccionas un repositorio de **GitHub** que contenga tus archivos y Binder proporciona un entorno ejecutable en tiempo real.
+
+Binder es ideal para compartir proyectos interactivos sin necesidad de configuraciones locales.
+
+---
+
+## Ejecuta los Ejercicios con Binder 🚀
+
+Haz clic en el siguiente botón para abrir este proyecto en **Binder** y ejecutarlo en un entorno interactivo:
+
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gianowolf/IPS-PU1/HEAD?labpath=index.qmd)
+
+---
 
 ## Ejercicios Resueltos
 
 A continuación, encontrarás los enlaces a los ejercicios resueltos:
 
-## **Ejercicio 1**
-- [Señal de Entrada](notebooks/ejercicio1/01_x_input.qmd)
-- [Respuesta Impulsional del Sistema](notebooks/ejercicio1/02_h_system.qmd)
-- [Análisis Numérico del Sistema](notebooks/ejercicio1/03_h_systems_num.qmd)
-- [Salida del Sistema](notebooks/ejercicio1/04_y_output.qmd)
+### **Ejercicio 1**
+1. [Señal de Entrada](notebooks/ejercicio1/01_x_input.qmd)
+2. [Respuesta Impulsional del Sistema](notebooks/ejercicio1/02_h_system.qmd)
+3. [Análisis Numérico del Sistema](notebooks/ejercicio1/03_h_systems_num.qmd)
+4. [Salida del Sistema](notebooks/ejercicio1/04_y_output.qmd)
 
-## **Ejercicio 2**
-- [Respuesta Impulsional del Canal](notebooks/ejercicio2/01_h_system.qmd)
+### **Ejercicio 2**
+1. [Respuesta Impulsional del Canal](notebooks/ejercicio2/01_h_system.qmd)
+
+---
+
+## Accede a la Versión Estática
+
+Si prefieres acceder al sitio web estático, puedes visitar el siguiente enlace:
+
+[**Versión Estática**](http://ips2024-gfl.s3-website-us-east-1.amazonaws.com/notebooks/ejercicio1/02_h_system.html)
+
+---
+
+## Repositorio del Proyecto
+
+El código fuente de este proyecto está disponible en el siguiente repositorio de GitHub:
+
+[**Repositorio GitHub**](https://github.com/gianowolf/IPS-PU1)
