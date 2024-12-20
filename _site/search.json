@@ -92,49 +92,49 @@
     "href": "index.html",
     "title": "Práctica con Utilitario - IPS 2024",
     "section": "",
-    "text": "En esta página encontrarás una breve explicación sobre Quarto y Binder, además de los enlaces a los ejercicios resueltos.\n\n\n\nQuarto es una herramienta de código abierto que permite crear documentos, sitios web, libros y presentaciones interactivas a partir de archivos Markdown (.qmd) y Jupyter Notebooks (.ipynb).\nQuarto se utiliza para generar contenido dinámico y reproducible, especialmente útil en ciencia de datos y enseñanza.\n\n\n\n\nBinder es un servicio gratuito que permite ejecutar notebooks interactivos directamente en la nube. Simplemente, seleccionas un repositorio de GitHub que contenga tus archivos y Binder proporciona un entorno ejecutable en tiempo real.\nBinder es ideal para compartir proyectos interactivos sin necesidad de configuraciones locales.\n\n\n\n\nHaz clic en el siguiente botón para abrir este proyecto en Binder y ejecutarlo en un entorno interactivo:\n\n\n\nLaunch Binder\n\n\n\n\n\n\nA continuación, encontrarás los enlaces a los ejercicios resueltos:\n\n\n\nSeñal de Entrada\nRespuesta Impulsional del Sistema\nAnálisis Numérico del Sistema\nSalida del Sistema\n\n\n\n\n\nRespuesta Impulsional del Canal\n\n\n\n\n\n\nSi prefieres acceder al sitio web estático, puedes visitar el siguiente enlace:\nVersión Estática\n\n\n\n\nEl código fuente de este proyecto está disponible en el siguiente repositorio de GitHub:\nRepositorio GitHub"
+    "text": "Autor: Gian Franco Lasala - 01425/3\nEn esta página encontrarás una breve explicación sobre Quarto y Binder, además de los enlaces a los ejercicios resueltos."
   },
   {
     "objectID": "index.html#qué-es-quarto",
     "href": "index.html#qué-es-quarto",
     "title": "Práctica con Utilitario - IPS 2024",
-    "section": "",
-    "text": "Quarto es una herramienta de código abierto que permite crear documentos, sitios web, libros y presentaciones interactivas a partir de archivos Markdown (.qmd) y Jupyter Notebooks (.ipynb).\nQuarto se utiliza para generar contenido dinámico y reproducible, especialmente útil en ciencia de datos y enseñanza."
+    "section": "1 ¿Qué es Quarto?",
+    "text": "1 ¿Qué es Quarto?\nQuarto es una herramienta de código abierto que permite crear documentos, sitios web, libros y presentaciones interactivas a partir de archivos Markdown (.qmd) y Jupyter Notebooks (.ipynb).\nQuarto se utiliza para generar contenido dinámico y reproducible, especialmente útil en ciencia de datos y enseñanza."
   },
   {
     "objectID": "index.html#qué-es-binder",
     "href": "index.html#qué-es-binder",
     "title": "Práctica con Utilitario - IPS 2024",
-    "section": "",
-    "text": "Binder es un servicio gratuito que permite ejecutar notebooks interactivos directamente en la nube. Simplemente, seleccionas un repositorio de GitHub que contenga tus archivos y Binder proporciona un entorno ejecutable en tiempo real.\nBinder es ideal para compartir proyectos interactivos sin necesidad de configuraciones locales."
+    "section": "2 ¿Qué es Binder?",
+    "text": "2 ¿Qué es Binder?\nBinder es un servicio gratuito que permite ejecutar notebooks interactivos directamente en la nube. Simplemente, seleccionas un repositorio de GitHub que contenga tus archivos y Binder proporciona un entorno ejecutable en tiempo real.\nBinder es ideal para compartir proyectos interactivos sin necesidad de configuraciones locales."
   },
   {
     "objectID": "index.html#ejecuta-los-ejercicios-con-binder",
     "href": "index.html#ejecuta-los-ejercicios-con-binder",
     "title": "Práctica con Utilitario - IPS 2024",
-    "section": "",
-    "text": "Haz clic en el siguiente botón para abrir este proyecto en Binder y ejecutarlo en un entorno interactivo:\n\n\n\nLaunch Binder"
+    "section": "3 Ejecuta los Ejercicios con Binder 🚀",
+    "text": "3 Ejecuta los Ejercicios con Binder 🚀\nHaz clic en el siguiente botón para abrir este proyecto en Binder y ejecutarlo en un entorno interactivo:\n\n\n\nLaunch Binder"
   },
   {
     "objectID": "index.html#ejercicios-resueltos",
     "href": "index.html#ejercicios-resueltos",
     "title": "Práctica con Utilitario - IPS 2024",
-    "section": "",
-    "text": "A continuación, encontrarás los enlaces a los ejercicios resueltos:\n\n\n\nSeñal de Entrada\nRespuesta Impulsional del Sistema\nAnálisis Numérico del Sistema\nSalida del Sistema\n\n\n\n\n\nRespuesta Impulsional del Canal"
+    "section": "4 Ejercicios Resueltos",
+    "text": "4 Ejercicios Resueltos\nA continuación, encontrarás los enlaces a los ejercicios resueltos:\n\n4.1 Ejercicio 1\n\nSeñal de Entrada\nRespuesta Impulsional del Sistema\nAnálisis Numérico del Sistema\nSalida del Sistema\n\n\n\n4.2 Ejercicio 2\n\nRespuesta Impulsional del Canal"
   },
   {
     "objectID": "index.html#accede-a-la-versión-estática",
     "href": "index.html#accede-a-la-versión-estática",
     "title": "Práctica con Utilitario - IPS 2024",
-    "section": "",
-    "text": "Si prefieres acceder al sitio web estático, puedes visitar el siguiente enlace:\nVersión Estática"
+    "section": "5 Accede a la Versión Estática",
+    "text": "5 Accede a la Versión Estática\nSi prefieres acceder al sitio web estático, puedes visitar el siguiente enlace:\nVersión Estática"
   },
   {
     "objectID": "index.html#repositorio-del-proyecto",
     "href": "index.html#repositorio-del-proyecto",
     "title": "Práctica con Utilitario - IPS 2024",
-    "section": "",
-    "text": "El código fuente de este proyecto está disponible en el siguiente repositorio de GitHub:\nRepositorio GitHub"
+    "section": "6 Repositorio del Proyecto",
+    "text": "6 Repositorio del Proyecto\nEl código fuente de este proyecto está disponible en el siguiente repositorio de GitHub:\nRepositorio GitHub"
   },
   {
     "objectID": "about.html",
@@ -218,6 +218,61 @@
     "crumbs": [
       "Ejercicio 1",
       "**1.1 Señal Discreta**"
+    ]
+  },
+  {
+    "objectID": "notebooks/librerias/librerias.html",
+    "href": "notebooks/librerias/librerias.html",
+    "title": "Librerias",
+    "section": "",
+    "text": "Propósito: Manipulación eficiente de matrices y operaciones matemáticas fundamentales.\nFunciones clave:\n- np.arange()\n- Genera arreglos de valores equiespaciados.\n- Ejemplo: Generar instantes de tiempo para señales: n = np.arange(0, N)\n- np.zeros()\n- Crea arreglos inicializados con ceros.\n- Ejemplo: y = np.zeros(N) para inicializar una señal.\n- np.fft.fft()\n- Calcula la Transformada de Fourier Discreta (TFTD) de una señal.\n- Ejemplo: fft_x = np.fft.fft(x)\n- np.fft.fftfreq()\n- Calcula las frecuencias correspondientes a la FFT.\n- Ejemplo: frequencies = np.fft.fftfreq(N, d=1/fs)\n- np.fft.fftshift()\n- Desplaza las frecuencias centrando en ( = 0 ).\n- Ejemplo: fft_shifted = np.fft.fftshift(fft_x)\n- np.convolve()\n- Realiza la convolución entre dos señales.\n- Ejemplo: y = np.convolve(x, h, mode='full')\n\n\n\n\nPropósito: Visualización de señales en el dominio del tiempo y frecuencia.\nFunciones clave:\n- plt.plot()\n- Grafica una señal continua.\n- Ejemplo: plt.plot(t, x)\n- plt.stem()\n- Grafica señales discretas (en puntos).\n- Ejemplo: plt.stem(n, x)\n- plt.title(), plt.xlabel(), plt.ylabel()\n- Personalizan títulos y etiquetas de gráficos.\n- Ejemplo: plt.title(\"Señal x[n]\")\n- plt.grid()\n- Activa una cuadrícula en el gráfico.\n- Ejemplo: plt.grid(True)\n- plt.tight_layout()\n- Ajusta automáticamente la distribución de los subgráficos.\n- plt.show()\n- Muestra los gráficos.\n\n\n\n\nPropósito: Procesamiento avanzado de señales, análisis de sistemas LTI.\nSubmódulo clave: scipy.signal\nFunciones clave:\n- signal.dlti()\n- Representa sistemas LTI (Lineales e Invariantes en el Tiempo) en tiempo discreto.\n- Ejemplo: system = signal.dlti(b, a)\n- signal.dimpulse()\n- Calcula la respuesta impulsional de un sistema LTI discreto.\n- Ejemplo: t, h = signal.dimpulse(system, n=20)\n- signal.lfilter()\n- Aplica un filtro FIR o IIR a una señal.\n- Ejemplo: y = signal.lfilter(b, a, x)\n- signal.firwin()\n- Diseña filtros FIR con características específicas.\n- Ejemplo: Crear un filtro pasa bajos: b = signal.firwin(N, cutoff)\n- signal.freqz()\n- Calcula y grafica la respuesta en frecuencia de un sistema.\n- Ejemplo: w, h = signal.freqz(b, a, worN=512)\n\n\n\n\nPropósito: Lectura y escritura de archivos de audio.\nFunciones clave:\n- sf.read()\n- Carga archivos de audio (wav, flac, etc.).\n- Ejemplo: fs, x = sf.read('audio.wav')\n- sf.write()\n- Guarda una señal en un archivo de audio.\n- Ejemplo: sf.write('output.wav', y, fs)\n\n\n\n\nPropósito: Entorno interactivo para la ejecución de código y visualización.\nHerramientas clave:\n- IPython.display.Audio()\n- Reproduce una señal de audio en una celda de Jupyter.\n- Ejemplo: Audio(y, rate=fs)\n- Markdown y LaTeX:\n- Documentación de reportes, uso de fórmulas matemáticas.\n- Ejemplo: $$ y[n] = x[n] * h[n] $$\n\n\n\n\nPropósito: Ejecutar scripts de Octave/MATLAB desde Python.\nFunciones clave:\n- Oct2Py()\n- Inicializa una sesión de Octave.\n- Ejemplo: oc = Oct2Py()\n- oc.run()\n- Ejecuta scripts de Octave.\n- Ejemplo: oc.run('hcanald.m')\n- oc.addpath()\n- Agrega rutas a carpetas que contienen archivos Octave/MATLAB.",
+    "crumbs": [
+      "Librerias",
+      "Librerias"
+    ]
+  },
+  {
+    "objectID": "notebooks/librerias/librerias.html#librerías-utilizadas",
+    "href": "notebooks/librerias/librerias.html#librerías-utilizadas",
+    "title": "Librerias",
+    "section": "",
+    "text": "Propósito: Manipulación eficiente de matrices y operaciones matemáticas fundamentales.\nFunciones clave:\n- np.arange()\n- Genera arreglos de valores equiespaciados.\n- Ejemplo: Generar instantes de tiempo para señales: n = np.arange(0, N)\n- np.zeros()\n- Crea arreglos inicializados con ceros.\n- Ejemplo: y = np.zeros(N) para inicializar una señal.\n- np.fft.fft()\n- Calcula la Transformada de Fourier Discreta (TFTD) de una señal.\n- Ejemplo: fft_x = np.fft.fft(x)\n- np.fft.fftfreq()\n- Calcula las frecuencias correspondientes a la FFT.\n- Ejemplo: frequencies = np.fft.fftfreq(N, d=1/fs)\n- np.fft.fftshift()\n- Desplaza las frecuencias centrando en ( = 0 ).\n- Ejemplo: fft_shifted = np.fft.fftshift(fft_x)\n- np.convolve()\n- Realiza la convolución entre dos señales.\n- Ejemplo: y = np.convolve(x, h, mode='full')\n\n\n\n\nPropósito: Visualización de señales en el dominio del tiempo y frecuencia.\nFunciones clave:\n- plt.plot()\n- Grafica una señal continua.\n- Ejemplo: plt.plot(t, x)\n- plt.stem()\n- Grafica señales discretas (en puntos).\n- Ejemplo: plt.stem(n, x)\n- plt.title(), plt.xlabel(), plt.ylabel()\n- Personalizan títulos y etiquetas de gráficos.\n- Ejemplo: plt.title(\"Señal x[n]\")\n- plt.grid()\n- Activa una cuadrícula en el gráfico.\n- Ejemplo: plt.grid(True)\n- plt.tight_layout()\n- Ajusta automáticamente la distribución de los subgráficos.\n- plt.show()\n- Muestra los gráficos.\n\n\n\n\nPropósito: Procesamiento avanzado de señales, análisis de sistemas LTI.\nSubmódulo clave: scipy.signal\nFunciones clave:\n- signal.dlti()\n- Representa sistemas LTI (Lineales e Invariantes en el Tiempo) en tiempo discreto.\n- Ejemplo: system = signal.dlti(b, a)\n- signal.dimpulse()\n- Calcula la respuesta impulsional de un sistema LTI discreto.\n- Ejemplo: t, h = signal.dimpulse(system, n=20)\n- signal.lfilter()\n- Aplica un filtro FIR o IIR a una señal.\n- Ejemplo: y = signal.lfilter(b, a, x)\n- signal.firwin()\n- Diseña filtros FIR con características específicas.\n- Ejemplo: Crear un filtro pasa bajos: b = signal.firwin(N, cutoff)\n- signal.freqz()\n- Calcula y grafica la respuesta en frecuencia de un sistema.\n- Ejemplo: w, h = signal.freqz(b, a, worN=512)\n\n\n\n\nPropósito: Lectura y escritura de archivos de audio.\nFunciones clave:\n- sf.read()\n- Carga archivos de audio (wav, flac, etc.).\n- Ejemplo: fs, x = sf.read('audio.wav')\n- sf.write()\n- Guarda una señal en un archivo de audio.\n- Ejemplo: sf.write('output.wav', y, fs)\n\n\n\n\nPropósito: Entorno interactivo para la ejecución de código y visualización.\nHerramientas clave:\n- IPython.display.Audio()\n- Reproduce una señal de audio en una celda de Jupyter.\n- Ejemplo: Audio(y, rate=fs)\n- Markdown y LaTeX:\n- Documentación de reportes, uso de fórmulas matemáticas.\n- Ejemplo: $$ y[n] = x[n] * h[n] $$\n\n\n\n\nPropósito: Ejecutar scripts de Octave/MATLAB desde Python.\nFunciones clave:\n- Oct2Py()\n- Inicializa una sesión de Octave.\n- Ejemplo: oc = Oct2Py()\n- oc.run()\n- Ejecuta scripts de Octave.\n- Ejemplo: oc.run('hcanald.m')\n- oc.addpath()\n- Agrega rutas a carpetas que contienen archivos Octave/MATLAB.",
+    "crumbs": [
+      "Librerias",
+      "Librerias"
+    ]
+  },
+  {
+    "objectID": "notebooks/librerias/librerias.html#procesamiento-de-señales-utilizado",
+    "href": "notebooks/librerias/librerias.html#procesamiento-de-señales-utilizado",
+    "title": "Librerias",
+    "section": "Procesamiento de Señales Utilizado",
+    "text": "Procesamiento de Señales Utilizado\n\n1. Respuesta Impulsional ( h[n] )\nLa respuesta impulsional de un sistema fue calculada usando: - Análisis manual de las ecuaciones en diferencias.\n- Implementación con scipy.signal.dimpulse.\n- Graficada usando matplotlib.stem().\n\n\n2. Transformada de Fourier en Tiempo Discreto (TFTD)\n\nCalculada usando np.fft.fft.\n\nFrecuencias generadas con np.fft.fftfreq y desplazadas con np.fft.fftshift.\n\nMagnitud y fase de la señal graficadas para análisis.",
+    "crumbs": [
+      "Librerias",
+      "Librerias"
+    ]
+  },
+  {
+    "objectID": "notebooks/librerias/librerias.html#filtros-implementados",
+    "href": "notebooks/librerias/librerias.html#filtros-implementados",
+    "title": "Librerias",
+    "section": "Filtros Implementados",
+    "text": "Filtros Implementados\n\n1. Sistemas LTI FIR\nFiltros implementados en base a las ecuaciones en diferencias dadas.\n- Usamos convolución (np.convolve) para aplicar la respuesta impulsional.\n- Ejemplo: Canal con doble eco.\n\n\n2. Filtros Correctores\n\nFiltro FIR de 1 rama de retardo: Atenuación de un solo eco.\n\nFiltro FIR de 2 ramas de retardo: Corrección de dos ecos simultáneamente.\n\nAmbos implementados utilizando np.convolve() y analizados en el tiempo y frecuencia.",
+    "crumbs": [
+      "Librerias",
+      "Librerias"
+    ]
+  },
+  {
+    "objectID": "notebooks/librerias/librerias.html#procesamiento-de-audio",
+    "href": "notebooks/librerias/librerias.html#procesamiento-de-audio",
+    "title": "Librerias",
+    "section": "Procesamiento de Audio",
+    "text": "Procesamiento de Audio\n\nCargado y guardado con soundfile.\n\nVisualización en tiempo usando matplotlib.\n\nAnálisis en frecuencia usando la TFTD.\n\nReproducción de audio en Jupyter con IPython.display.Audio.",
+    "crumbs": [
+      "Librerias",
+      "Librerias"
     ]
   }
 ]

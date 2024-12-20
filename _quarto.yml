@@ -7,6 +7,9 @@ website:
     - title: "Ejercicios"
       style: "docked"
       contents:
+        - section: "Librerias"
+          contents:
+            - notebooks/librerias/librerias.qmd
         - section: "Ejercicio 1"
           contents:
             - notebooks/ejercicio1/01_x_input.qmd
@@ -38,7 +41,7 @@ website:
             href: notebooks/ejercicio2/01_h_system.qmd
 format:
   html:
-    theme: cosmo
+    theme: flatly
     toc: true
 execute:
   freeze: auto

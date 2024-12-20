@@ -6,7 +6,7 @@ format:
     number-sections: true
 ---
 
-# Práctica con Utilitario - IPS 2024
+Autor: Gian Franco Lasala - 01425/3
 
 En esta página encontrarás una breve explicación sobre **Quarto** y **Binder**, además de los enlaces a los ejercicios resueltos.
 
@@ -64,3 +64,4 @@ Si prefieres acceder al sitio web estático, puedes visitar el siguiente enlace:
 El código fuente de este proyecto está disponible en el siguiente repositorio de GitHub:
 
 [**Repositorio GitHub**](https://github.com/gianowolf/IPS-PU1)
+
