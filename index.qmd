@@ -1,0 +1,21 @@
+---
+title: "Práctica con Utilitario - IPS 2024"
+format: html
+---
+
+## Autor
+
+Gian Franco Lasala - 01425/3
+
+## Ejercicios Resueltos
+
+A continuación, encontrarás los enlaces a los ejercicios resueltos:
+
+## **Ejercicio 1**
+- [Señal de Entrada](notebooks/ejercicio1/01_x_input.qmd)
+- [Respuesta Impulsional del Sistema](notebooks/ejercicio1/02_h_system.qmd)
+- [Análisis Numérico del Sistema](notebooks/ejercicio1/03_h_systems_num.qmd)
+- [Salida del Sistema](notebooks/ejercicio1/04_y_output.qmd)
+
+## **Ejercicio 2**
+- [Respuesta Impulsional del Canal](notebooks/ejercicio2/01_h_system.qmd)
