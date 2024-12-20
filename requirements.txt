@@ -5,3 +5,5 @@ soundfile
 librosa
 boto3
 jupyter
+oct2py
+sounddevice
